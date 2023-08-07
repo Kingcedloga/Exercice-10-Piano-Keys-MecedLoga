@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "intellsmi.deepl-translate"
+        "intellsmi.deepl-translate",
+        "alfredbirk.git-add-commit-push",
+        "github.copilot"
     ]
 }
