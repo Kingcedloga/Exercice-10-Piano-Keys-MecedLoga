@@ -9,9 +9,10 @@ keys.forEach(function(key){
  keyPlay = (event)=> {
   event.target.style.backgroundColor ='red';
 }
-
+keyReturn = (event)=> {
+  event.target.style.backgroundColor =' ';
+}
   
-
 // Write a named function with event handler properties
 
 
