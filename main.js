@@ -10,7 +10,7 @@ keys.forEach(function(key){
   event.target.style.backgroundColor ='red';
 }
 keyReturn = (event) => {
-  event.target.style.backgroundColor =' ';
+  event.target.style.backgroundColor ='';
 }
   
 // Write a named function with event handler properties
