@@ -60,6 +60,8 @@ nextTwo.onclick = () => {
 // Write anonymous event handler property and function for the third progress button
 
 nextThree.onclick = () => {
+  startOver.hidden = false;
+  nextThree.hidden = true;
   document.getElementById('letter-note-one').innerHTML = 'F';
   document.getElementById('letter-note-two').innerHTML = 'F';
   document.getElementById('letter-note-three').innerHTML = 'E';
